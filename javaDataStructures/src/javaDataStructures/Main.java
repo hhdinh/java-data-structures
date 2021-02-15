@@ -32,9 +32,9 @@ public class Main {
 		}
 
 		System.out.println(index);
-		
+
 		// calling the toPower method
-		System.out.println(Arrays.toString(toPower(4,2)));
+		System.out.println(Arrays.toString(toPower(4, 2)));
 	}
 
 	// toPower method
