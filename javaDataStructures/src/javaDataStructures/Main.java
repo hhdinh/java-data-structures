@@ -1,5 +1,7 @@
 package javaDataStructures;
 
+import java.util.Arrays;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -30,5 +32,18 @@ public class Main {
 		}
 
 		System.out.println(index);
+		
+		// calling the toPower method
+		System.out.println(Arrays.toString(toPower(4,2)));
+	}
+
+	// toPower method
+	public static int[] toPower(int size, int power) {
+
+		int[] result = new int[size];
+		for (int i = 0; i < size; i++) {
+			result[i] = (int) Math.pow(i, power);
+		}
+		return result;
 	}
 }
